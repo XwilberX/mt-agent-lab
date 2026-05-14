@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+# Datos: solo trackeamos el script de seed, no los archivos generados
+data/parquet/
+data/olist/*.csv
+data/olist/*.zip
+!data/olist/.gitkeep
+
+# Logs
+*.log
